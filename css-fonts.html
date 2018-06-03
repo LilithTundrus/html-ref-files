@@ -1,0 +1,60 @@
+<!-- The CSS color property defines the text color to be used.
+
+The CSS font-family property defines the font to be used.
+
+The CSS font-size property defines the text size to be used. 
+
+The CSS border property defines a border around an HTML element:
+
+The CSS padding property defines a padding (space) between the text and the border:
+
+The CSS margin property defines a margin (space) outside the border:
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            color: blue;
+            font-family: verdana;
+            font-size: 300%;
+            margin: 50px;
+
+        }
+
+        p {
+            color: red;
+            font-family: courier;
+            font-size: 160%;
+            border: 1px solid powderblue;
+            padding: 30px;
+        }
+
+        #p01 {
+            color: blue;
+        }
+
+        p.error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+    <!-- To define a specific style for one special element, add an id attribute to the element:-->
+    <p id="p01">I am different</p>
+
+    <!-- To define a style for a special type of elements, add a class attribute to the element: -->
+    <p class="error">I am different</p>
+
+</body>
+
+</html>
