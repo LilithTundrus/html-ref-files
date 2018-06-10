@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- An iframe is used to display a web page within a web page.
+
+ -->
+
+    <!-- An HTML iframe is defined with the <iframe> tag:
+
+ -->
+
+    <h2>HTML Iframes</h2>
+    <p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+    <iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+
+    <!-- Or you can use CSS to set the height and width of the iframe:
+
+ -->
+
+    <iframe src="demo_iframe.htm" style="height:200px;width:300px;"></iframe>
+
+    <!-- By default, an iframe has a border around it.
+
+To remove the border, add the style attribute and use the CSS border property: -->
+
+    <iframe src="demo_iframe.htm" style="border:none;"></iframe>
+
+
+    <!-- An iframe can be used as the target frame for a link.
+
+The target attribute of the link must refer to the name attribute of the iframe: -->
+
+    <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+    <p>
+        <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+    </p>
+
+</body>
+
+</html>
