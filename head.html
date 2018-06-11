@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<!-- The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+
+HTML metadata is data about the HTML document. Metadata is not displayed.
+
+Metadata typically define the document title, character set, styles, links, scripts, and other meta information.
+
+The following tags describe metadata: <title>, <style>, <meta>, <link>, <script>, and <base>. -->
+
+
+<!-- The <style> element is used to define style information for a single HTML page:
+ -->
+<style>
+    body {
+        background-color: powderblue;
+    }
+
+    h1 {
+        color: red;
+    }
+
+    p {
+        color: blue;
+    }
+</style>
+
+<!-- The <link> element is used to link to external style sheets: -->
+
+<link rel="stylesheet" href="mystyle.css">
+
+<!-- The <meta> element is used to specify which character set is used, page description, keywords, author, and other metadata.
+
+Metadata is used by browsers (how to display content), by search engines (keywords), and other web services.
+
+Define the character set used: -->
+
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+
+<!-- HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.
+
+The viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+You should include the following <meta> viewport element in all your web pages: -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+
+
+
+<head>
+    <!-- The <title> element defines the title of the document, and is required in all HTML/XHTML documents.
+
+The <title> element:
+
+defines a title in the browser tab
+provides a title for the page when it is added to favorites
+displays a title for the page in search engine results -->
+    <title>Page Title</title>
+
+
+</head>
+
+<body>
+
+    <p>The content of the body element is displayed in the browser window.</p>
+    <p>The content of the title element is displayed in the browser tab, in favorites and in search engine results.</p>
+
+</body>
+
+</html>
