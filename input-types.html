@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- For a full list go here https://www.w3schools.com/html/html_form_input_types.asp -->
+
+    <h2>Text field</h2>
+    <p>The
+        <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+    <form action="/action_page.php">
+        First name:
+        <br>
+        <input type="text" name="firstname">
+        <br> Last name:
+        <br>
+        <input type="text" name="lastname">
+        <br>
+        <br>
+
+        <!-- <input type="radio"> defines a radio button.
+        Radio buttons let a user select ONLY ONE of a limited number of choice -->
+        <input type="radio" name="gender" value="male" checked> Male
+        <br>
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <input type="radio" name="gender" value="other"> Other
+
+        <!-- <input type="checkbox"> defines a checkbox.
+        Checkboxes let a user select ZERO or MORE options of a limited number of choices -->
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+        <br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car
+
+        <!-- <input type="password"> defines a password field: -->
+        User password:
+        <br>
+        <input type="password" name="psw">
+        <!-- The characters in a password field are masked (shown as asterisks or circles). -->
+
+
+
+
+        <!-- The <input type="color"> is used for input fields that should contain a color.
+
+        Depending on browser support, a color picker can show up in the input field -->
+
+        Select your favorite color:
+        <input type="color" name="favcolor">
+
+        <!-- The <input type="date"> is used for input fields that should contain a date.
+        Depending on browser support, a date picker can show up in the input field. -->
+        Birthday:
+        <input type="date" name="bday"> You can also use the min and max attributes to add restrictions to dates: Enter a date before 1980-01-01:
+        <input type="date" name="bday" max="1979-12-31">
+        <br> Enter a date after 2000-01-01:
+        <input type="date" name="bday" min="2000-01-02">
+        <br>
+
+        <!-- The <input type="email"> is used for input fields that should contain an e-mail address.
+
+        Depending on browser support, the e-mail address can be automatically validated when submitted.
+
+        Some smartphones recognize the email type, and adds ".com" to the keyboard to match email input. -->
+        E-mail:
+        <input type="email" name="email">
+
+
+        <!-- <input type="reset"> defines a reset button that will reset all form values to their default values: -->
+        <input type="reset">
+
+
+        <input type="submit">
+
+    </form>
+
+    <p>Note that the form itself is not visible.</p>
+    <p>Also note that the default width of a text field is 20 characters.</p>
+
+</body>
+
+</html>
